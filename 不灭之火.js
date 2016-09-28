@@ -1,0 +1,32 @@
+print("欢迎使用CP的不灭之火")
+print("用木棍点击喷火")
+function useItem(x,y,z,a,b)
+{
+if(a==280)
+{
+setTile(x,y+1,z+1,51)
+setTile(x,y+1,z-1,51) 
+setTile(x+1,y+1,z,51)  
+setTile(x-1,y+1,z,51) 
+setTile(x+1,y+1,z+1,51) 
+setTile(x-1,y+1,z+1,51) 
+setTile(x+1,y+1,z-1,51) 
+setTile(x-1,y+1,z-1,51) 
+setTile(x,y,z+1,87) 
+setTile(x,y,z-1,87) 
+setTile(x+1,y,z,87) 
+setTile(x-1,y,z,87) 
+setTile(x+1,y,z+1,87) 
+setTile(x-1,y,z+1,87) 
+setTile(x+1,y,z-1,87) 
+setTile(x-1,y,z-1,87) 
+}
+}
+function useltem(x,y,z,a,b) 
+{
+if(a==290)
+{
+setTile(x,y+1,z,51) 
+setTile(x,y,z,87) 
+}
+}
